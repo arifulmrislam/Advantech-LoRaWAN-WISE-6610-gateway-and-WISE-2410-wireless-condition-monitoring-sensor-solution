@@ -1,6 +1,6 @@
 # Advantech-LoRaWAN-Vibration-Temp-sensor-Solution
 WISE-2410 is a LoRaWAN wireless conditional monitoring sensor integrated with ARM Cortex-M4 Processor, LoRa transceiver, 3-axis accelerometer and temperature sensor. 
-Battery life cycle is 2 years with IP66 enclosure.
+Battery life cycle is 2years with IP66 enclosure.
 
 Brief Solution Step by Step:
 
@@ -10,7 +10,7 @@ https://www.advantech.com/support/details/driver?id=1-13U9QTV
 
 Step1.
 
-Enter the WISE 6610 gateway. Default IP: 192.168.1.1
+Enter the WISE-6610 gateway. Default IP: 192.168.1.1
 
   Account: root
   
@@ -29,7 +29,7 @@ Or click on quick setup for default setting.
 
 Step4.
 
-A new tab will pop up after click on network server > enable > network > server (http)
+A new tab will pop up after click on network server > enable > network > server (http).
 
   Account: root
   
@@ -49,7 +49,7 @@ A.DevAddr: the device address of an end node.
    Copy pate from WISE-2410 RF module tab.
   
 B.Profile: select the model name of the WISE-6610 which used for Network Server role.
-   In this demo, a EUR version is used to connect with WISE 2410NA version.
+   In this demo, a EUR version is used to connect with WISE-2410NA version.
   
 C.App Arguments: the I/O board of the end node.
    In this project, a WISE-2410 is used.
@@ -73,7 +73,9 @@ Create a network server gateway. Copy paste the MAC address from LoRaWAN radio >
 Connection results:
 
 1. Click application server > status. Here we will see the end nodes if packets are received by gateway from an end node.
+
 2. The gateway will help to pre parsing the data payload if the app arguments input correctly.
+
 3. Received frames page shows the received results. The FCnt shows the frame sequence. If this sequence is in continuously , means some of the packets were lost.
 
 Continue with setting up:
