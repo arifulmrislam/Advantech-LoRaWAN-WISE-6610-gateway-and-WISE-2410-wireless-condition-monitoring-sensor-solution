@@ -97,7 +97,7 @@ Step11.
 
 Modify all of the device MAC addresses in WISE-2410 UpLink node, and Device function into the MAC of ours. Then click on deploy,
 
-<img src= "Node-red flow.png" width=800>
+<img src= "Node-red flow.png" width=1200>
 
 Click dashboard / open. There will be the dashboard created by the program copy pasted from the notepad.
 
