@@ -109,7 +109,7 @@ Click dashboard / open. There will be the dashboard created by the program copy 
 
 ### Here is an example you can import demonstrating many of these formats and capabilities
 
-# [Node-Red flow](Node-red flow.json)
+# [Node-Red flow](https://github.com/arifulmrislam/Advantech-LoRaWAN-Vibration-Temp-sensor-Solution)
 
 Visit our official website: https://polisea.ro/aiot/ 
 
