@@ -103,7 +103,7 @@ Modify all of the device MAC addresses in WISE-2410 UpLink node, and Device func
 
 Click dashboard / open. There will be the dashboard created by the program copy pasted from the notepad.
 
-<img src= "Dashboard.png" width=1200>
+<img src= "Dashboard.png" width=1000>
 
 ## Example
 
