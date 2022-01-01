@@ -2,13 +2,13 @@
 WISE-2410 is a LoRaWAN wireless conditional monitoring sensor integrated with ARM Cortex-M4 Processor, LoRa transceiver, 3-axis accelerometer and temperature sensor. 
 Battery life cycle is 2years with IP66 enclosure.
 
-Brief Solution Step by Step:
+## Brief Solution Step by Step:
 
 If we connect WISE-2410 with our computer and the Advantech WISE Studio shows it cannot recognize the com port, then please install the driver from the following link:
 
-https://www.advantech.com/support/details/driver?id=1-13U9QTV
+[Driver for ADAM-4561-CE, ADAM-41XX, and WISE-4xxx USB interface.](https://www.advantech.com/support/details/driver?id=1-13U9QTV)
 
-Step1.
+## Step1.
 
 Enter the WISE-6610 gateway. Default IP: 192.168.1.1
 
@@ -18,16 +18,16 @@ Enter the WISE-6610 gateway. Default IP: 192.168.1.1
   
 <img src= "Gateway WISE-6610.png" width=800>
 
-Step2.
+## Step2.
 
 Go to user mode.
 
-Step3.
+## Step3.
 
 Click LoRaWAN Gateway to enter the setting page. Make sure all of these parameters are matching with the RF module setting on WISE-2410 Sensor.
 Or click on quick setup for default setting.
 
-Step4.
+## Step4.
 
 A new tab will pop up after click on network server > enable > network > server (http).
 
@@ -35,7 +35,7 @@ A new tab will pop up after click on network server > enable > network > server 
   
   Password: root
 
-Step5.
+## Step5.
 
 Create an end node device according the OTAA or ABP method.
 
@@ -66,7 +66,7 @@ Select LoRaWAN for RF operation mode setting on WISE-2410.
 
 <img src= "Sensor WISE-2410.png" width=800>
 
-Step6.
+## Step6.
 
 Create a network server gateway. Copy paste the MAC address from LoRaWAN radio > LoRaWAN Gateway Identifier. Then click on submit.
 
@@ -80,22 +80,22 @@ Connection results:
 
 Continue with setting up:
 
-Step7. (optional)
+## Step7. (optional)
 
 Connect WISE-6610 through WinSCP (FileZilla cannot connect with it). Modify the “setting.js” file of WISE 6610. So, we can insert image into dashboard. 
 Put the “title.jpg” file under folder “opt/nodered /node red/” of WISE-6610. Need to reboot Node-Red service if modify the setting.js file. If we don't
 want an image, we can simply delete this node. Add a line httpStatic: '/opt/nodered/node red/',
 
-Step8.
+## Step8.
 
 Enable the Node-Red function on WISE-6610. Go to Customization / User Modules / Node Red webpage and enable automatic start function with the port number we prefer. 
 Default port number 1880 is recommended.
 
-Step9.
+## Step9.
 
 Open a new tab on a browser. Type in the IP address of the WISE-6610 and port number of the Node Red.
 
-Step11.
+## Step10.
 
 Modify all of the device MAC addresses in WISE-2410 UpLink node, and Device function into the MAC of ours. Then click on deploy,
 
