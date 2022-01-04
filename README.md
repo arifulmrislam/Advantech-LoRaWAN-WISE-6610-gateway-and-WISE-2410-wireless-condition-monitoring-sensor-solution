@@ -62,7 +62,7 @@ E.AppSK ey: the application service key of an end node.
   
 F.Click on save to finish the setting.
 
-Select LoRaWAN for RF operation mode setting on WISE-2410.
+  - Select LoRaWAN for RF operation mode setting on WISE-2410.
 
 <img src= "Sensor WISE-2410.png" width=800>
 
@@ -78,7 +78,9 @@ Connection results:
 
 3. Received frames page shows the received results. The FCnt shows the frame sequence. If this sequence is in continuously , means some of the packets were lost.
 
+```
 Continue with setting up:
+```
 
 ## Step7. (optional)
 
