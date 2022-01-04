@@ -12,9 +12,9 @@ If we connect WISE-2410 with our computer and the Advantech WISE Studio shows it
 
 Enter the WISE-6610 gateway. Default IP: 192.168.1.1
 
-  Account: root
+  `Account: root`
   
-  Password: root
+  `Password: root`
   
 <img src= "Gateway WISE-6610.png" width=800>
 
@@ -31,34 +31,34 @@ Or click on quick setup for default setting.
 
 A new tab will pop up after click on network server > enable > network > server (http).
 
-  Account: root
+  `Account: root`
   
-  Password: root
+  `Password: root`
 
 ## Step5.
 
 Create an end node device according the OTAA or ABP method.
 
-   I f select commissioned ””, which means the node will use OTAA mode for connecting with a gateway.
+  - I f select commissioned ””, which means the node will use OTAA mode for connecting with a gateway.
   
-   I f select active nodes ””, which means the node will use ABP mode for connecting with a gateway.
+  - I f select active nodes ””, which means the node will use ABP mode for connecting with a gateway.
 
 Click on create in devices in activated because this project is using ABP mode for connection.
 
 A.DevAddr: the device address of an end node.
-   Copy pate from WISE-2410 RF module tab.
+  - Copy pate from WISE-2410 RF module tab.
   
 B.Profile: select the model name of the WISE-6610 which used for Network Server role.
-   In this demo, a EUR version is used to connect with WISE-2410NA version.
+  - In this demo, a EUR version is used to connect with WISE-2410NA version.
   
 C.App Arguments: the I/O board of the end node.
-   In this project, a WISE-2410 is used.
+  - In this project, a WISE-2410 is used.
   
 D.NwkSKey: the network service key address of an end node.
-   Copy pate from WISE-2410 RF module tab.
+  - Copy pate from WISE-2410 RF module tab.
   
 E.AppSK ey: the application service key of an end node.
-   Copy pate from WISE-2410 RF module tab.
+  - Copy pate from WISE-2410 RF module tab.
   
 F.Click on save to finish the setting.
 
@@ -107,7 +107,9 @@ Click dashboard / open. There will be the dashboard created by the program copy 
 
 ## Example
 
-### Here is an example you can import demonstrating many of these formats and capabilities
+``` 
+Here is an example you can import demonstrating many of these formats and capabilities
+```
 
 # [Node-Red flow](https://github.com/arifulmrislam/Advantech-LoRaWAN-Vibration-Temp-sensor-Solution)
 
