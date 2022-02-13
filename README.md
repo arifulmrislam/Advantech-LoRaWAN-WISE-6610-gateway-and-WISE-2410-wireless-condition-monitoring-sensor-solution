@@ -1,6 +1,10 @@
 # Advantech-LoRaWAN-Vibration-Temp-sensor-Solution
-WISE-2410 is a LoRaWAN wireless conditional monitoring sensor integrated with ARM Cortex-M4 Processor, LoRa transceiver, 3-axis accelerometer and temperature sensor. 
-Battery life cycle is 2years with IP66 enclosure.
+
+## `WISE-6610 LoRaWAN Gateway`
+The WISE-6610 is a high-performance LoRaWAN gateway with reliable connectivity options for industrial environments and LoRaWAN protocol support for building LoRaWAN private and public networks.  It also supports other protocols, including MQTT, and its hardware and software flexibility provides rich features to edge intelligence systems. The WISE-6610 allows for VPN tunnel creation with various protocols that ensure safe communication. It also provides a network server that can encrypt and convert LoRaWAN data in the device, and its redundancy-enhanced functions are specifically designed to prevent connection loss.
+
+## `WISE-2410 LoRaWAN Wireless Condition Monitoring Sensor` 
+The WISE-2410 is a LoRaWAN wireless conditional monitoring sensor integrated with ARM Cortrex-M4 Processor, LoRa transceiver, 3-axis accelerometer and temperature sensor. It balances the wireless bandwidth between the WISE-2410 and the gateway (WISE-6610), so it also mitigates the data transmission fail rates between edge-devices and gateways.
 
 ## Brief Solution Step by Step:
 
