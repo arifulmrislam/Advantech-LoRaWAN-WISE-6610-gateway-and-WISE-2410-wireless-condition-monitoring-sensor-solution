@@ -1,4 +1,4 @@
-# Advantech-LoRaWAN-Vibration-Temp-sensor-Solution
+# Advantech LoRaWAN WISE-6610 gateway and WISE-2410 wireless condition monitoring sensor solution
 
 ## `WISE-6610 LoRaWAN Gateway`
 The WISE-6610 is a high-performance LoRaWAN gateway with reliable connectivity options for industrial environments and LoRaWAN protocol support for building LoRaWAN private and public networks.  It also supports other protocols, including MQTT, and its hardware and software flexibility provides rich features to edge intelligence systems. The WISE-6610 allows for VPN tunnel creation with various protocols that ensure safe communication. It also provides a network server that can encrypt and convert LoRaWAN data in the device, and its redundancy-enhanced functions are specifically designed to prevent connection loss.
