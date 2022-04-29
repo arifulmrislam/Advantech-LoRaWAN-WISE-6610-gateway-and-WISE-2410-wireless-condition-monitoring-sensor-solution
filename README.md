@@ -43,9 +43,9 @@ A new tab will pop up after click on network server > enable > network > server 
 
 Create an end node device according the OTAA or ABP method.
 
-  - I f select commissioned ””, which means the node will use OTAA mode for connecting with a gateway.
+  - If select commissioned ””, which means the node will use OTAA mode for connecting with a gateway.
   
-  - I f select active nodes ””, which means the node will use ABP mode for connecting with a gateway.
+  - If select active nodes ””, which means the node will use ABP mode for connecting with a gateway.
 
 Click on create in devices in activated because this project is using ABP mode for connection.
 
